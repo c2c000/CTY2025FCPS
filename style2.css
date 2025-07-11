@@ -1,0 +1,124 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+    background-color: #E2E4F6;
+    background-image: url('https://cdn.glitch.global/d0ec3f0b-52ef-479e-88da-0dc454faaa9f/8bit-pixel-graphic-blue-sky-background-with-clouds-vector.jpg?v=1751568326197');
+  }
+  
+  main {
+    display:block;
+    height:175px;
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+  }
+  
+  h1 {
+  font: 2.4em Verdana, Geneva, sans-serif;
+  margin-bottom: 0.4em;
+  color: #4f6975;
+}
+  
+  p {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+  
+  .pet-image {
+    height:250px;
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding:15px;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding:20px;
+  }
+  
+  .button-container {
+    margin-top:20px;
+  }
+  
+  button {
+  background-color: #a0c1d1;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  font-weight: normal;
+}
+
+ button:hover {
+  background-color: #82aba1;
+}
+
+  aside {
+  padding: 1em;
+  background: #4f6975;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.settings {
+   display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding:20px;
+}
+
+.start-bouncing{
+  animation: bounce 1s ease-in 1;
+}
+
+@keyframes bounce{
+  20%{
+    transform: translateY(-5rem);
+  }
+  40%{
+    transform: none
+  }
+}
+
+embed {
+  margin: 10px;
+}
+
